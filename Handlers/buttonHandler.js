@@ -20,5 +20,4 @@ async function loadButtons(client) {
     console.log('✅ Buttons Loaded');
 }
 
-// 👇 ESTA PARTE ES CLAVE
 module.exports = { loadButtons };

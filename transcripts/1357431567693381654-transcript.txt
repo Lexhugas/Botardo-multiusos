@@ -1,0 +1,11 @@
+[Thu Apr 03 2025 21:08:53 GMT+0200 (hora de verano de Europa central)] Seguridad#0474: This command is outdated.
+[Thu Apr 03 2025 21:08:48 GMT+0200 (hora de verano de Europa central)] yourcarlo_magno: a
+[Thu Apr 03 2025 21:08:48 GMT+0200 (hora de verano de Europa central)] yourcarlo_magno: aa
+[Thu Apr 03 2025 21:08:42 GMT+0200 (hora de verano de Europa central)] yourcarlo_magno: a
+[Thu Apr 03 2025 21:08:41 GMT+0200 (hora de verano de Europa central)] yourcarlo_magno: a
+[Thu Apr 03 2025 21:08:41 GMT+0200 (hora de verano de Europa central)] yourcarlo_magno: a
+[Thu Apr 03 2025 21:08:41 GMT+0200 (hora de verano de Europa central)] yourcarlo_magno: a
+[Thu Apr 03 2025 21:08:40 GMT+0200 (hora de verano de Europa central)] yourcarlo_magno: ooola
+[Thu Apr 03 2025 21:08:38 GMT+0200 (hora de verano de Europa central)] yourcarlo_magno: hola
+[Thu Apr 03 2025 21:08:36 GMT+0200 (hora de verano de Europa central)] yourcarlo_magno: hola
+[Thu Apr 03 2025 21:08:25 GMT+0200 (hora de verano de Europa central)] Seguridad#0474: <@&1355605484568318022>

@@ -8,18 +8,18 @@ const client = new Client({
 client.once('ready', () => {
     console.log(`Conectado como ${client.user.tag}`);
 
-    // Función para actualizar el estado
+
     const actualizarEstado = () => {
         const servidores = client.guilds.cache.size;
         client.user.setPresence({
             activities: [{
                 name: `${servidores} Servidores`,
-                type: ActivityType.Watching  // Puedes probar también Competing o Listening
+                type: ActivityType.Watching  
             }],
             status: 'online'
         });
     };
 
-    actualizarEstado(); // Llamar al iniciar
-    setInterval(actualizarEstado, 60000); // Actualizar cada 60 segundos
+    actualizarEstado(); 
+    setInterval(actualizarEstado, 60000); 
 });

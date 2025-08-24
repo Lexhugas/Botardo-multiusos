@@ -10,17 +10,14 @@ module.exports = {
     const sugerencia = await Sugerencia.findOne({ messageId: message.id });
     if (!sugerencia) return;
 
-    // Sumar votos
     if (reaction.emoji.name === '👍') sugerencia.upvotes++;
     else if (reaction.emoji.name === '👎') sugerencia.downvotes++;
     else return;
 
-    // Comprobar estado
     let nuevoEstado = sugerencia.state;
     if (sugerencia.upvotes - sugerencia.downvotes >= 15) nuevoEstado = 'aceptada';
     else if (sugerencia.downvotes - sugerencia.upvotes >= 15) nuevoEstado = 'rechazada';
 
-    // Si cambia el estado, actualizamos el embed
     if (nuevoEstado !== sugerencia.state) {
       sugerencia.state = nuevoEstado;
 

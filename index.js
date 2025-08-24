@@ -1,9 +1,9 @@
 const { Client, GatewayIntentBits, Partials, Collection, Events, EmbedBuilder } = require("discord.js");
-const { Guilds, GuildMembers, GuildMessages, MessageContent, GuildInvites } = GatewayIntentBits; // Agregamos GuildInvites para permisos de invitaciones
+const { Guilds, GuildMembers, GuildMessages, MessageContent, GuildInvites } = GatewayIntentBits; 
 const { User, Message, GuildMember, ThreadMember } = Partials;
 
 const client = new Client({
-    intents: [Guilds, GuildMembers, GuildMessages, MessageContent, GuildInvites], // Añadimos GuildInvites
+    intents: [Guilds, GuildMembers, GuildMessages, MessageContent, GuildInvites], 
     partials: [User, Message, GuildMember, ThreadMember]
 });
 

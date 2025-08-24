@@ -1,4 +1,3 @@
-// Ejemplo simple esquema (MessagesCount.js)
 const mongoose = require('mongoose');
 
 const mensajesSchema = new mongoose.Schema({

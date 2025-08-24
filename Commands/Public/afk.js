@@ -49,7 +49,7 @@ module.exports = {
                 await interaction.member.setNickname(afkNickName).catch(() => {});
 
                 const embedSet = new EmbedBuilder()
-                    .setColor('#007FFF') // Azul intenso 💙
+                    .setColor('#007FFF') 
                     .setTitle('💤 Estado AFK Activado')
                     .setThumbnail(interaction.user.displayAvatarURL())
                     .setDescription(`🌀 **¡Ahora estás en modo AFK!**`)

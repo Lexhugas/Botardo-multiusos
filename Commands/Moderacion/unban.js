@@ -1,4 +1,3 @@
-// commands/unban.js
 const { SlashCommandBuilder, EmbedBuilder, PermissionFlagsBits } = require('discord.js');
 const Ban = require('../../Schemas/Ban.js');
 
